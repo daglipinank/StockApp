@@ -1,0 +1,14 @@
+<div>
+ <div class="jumbotron text-center tile">
+  <h1>Add Stocks to Tracking List</h1>
+  
+  <div class="container"> 
+    <input type="text" ng-model="companySymbol" placeholder="Company Symbol">
+    <button ng-click="addToTrackingList()">Add Company</button>
+  </div>
+</div>
+
+    <ul class="tilelist">
+      <li ng-repeat="stock in stocks track by $index"><a href="#" ui-sref="details" class="tile" ng-click="sendDataToServer(stock.Symbol)">{{stock.Name}} - {{stock.Symbol}} - {{stock.Exchange}}</a></li>
+    </ul>
+

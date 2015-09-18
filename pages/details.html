@@ -1,0 +1,18 @@
+
+ <div class="jumbotron text-center tile">
+ 	<h1 ng-init="getDatafromServer()">Company Details Page</h1>
+ </div>
+
+<!-- <marquee>
+   <div class="company" ng-repeat="stock in detailesData track by $index">
+   		<span class="company tilelist ">Name: {{stock.Name}} Symbol: {{stock.Symbol}} Last Price: {{stock.LastPrice}} Open: {{stock.Open}} High: {{stock.High}} Low: {{stock.Low}}</span>
+   </div> -->
+   <marquee scrollamount="30">
+   <div class="company" ng-repeat="comp in detailesData track by $index">
+      <span class="company tilelist ">Name: {{comp.Name}} Symbol: {{comp.Symbol}} Last Price: {{comp.LastPrice}} Open: {{comp.Open}} High: {{comp.High}} Low: {{comp.Low}} </span>
+   </div>
+<marquee>
+<!-- <marquee> -->
+
+
+

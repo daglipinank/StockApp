@@ -1,0 +1,21 @@
+body {
+  background-image: url('Stock-Market.jpg');
+  background-size: 100%;
+}
+.tile {
+  background-color: rgba(0,0,255,0.3);
+  color: yellow;
+  font-size: 150%;
+}
+/*.tilelist{
+  background-color: rgba(255,0,0,0.3);
+  color: white;
+  font-size: 100%;
+}*/
+.company{
+  background-color: rgba(0,0,0,1);
+  color: yellow;
+  display: inline-block;
+  font-size: 150%;
+  position:auto;
+}
