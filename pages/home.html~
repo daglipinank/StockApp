@@ -1,4 +1,0 @@
-<div class="jumbotron text-center tile">
-        <h1>Trading House</h1>
-		<button ><a href="#" ui-sref="add">get Started!!</a></button>
-    </div>
